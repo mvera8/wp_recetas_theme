@@ -88,3 +88,8 @@ require get_template_directory() . '/inc/theme-settings.php';
  * Add Thumbnail Column in the admin for display thumbnail
  */
 require get_template_directory() . '/inc/thumbnail-column.php';
+
+/**
+ * Include Theme custom Customizer
+ */
+require get_template_directory() . '/inc/theme-customizer.php';
