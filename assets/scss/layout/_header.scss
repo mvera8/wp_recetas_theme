@@ -1,0 +1,20 @@
+.header {
+  &__navbar {
+    padding: 1rem 0;
+  }
+
+  &__menu {
+    ul {
+      li {
+        a {
+          color: $gray-600;
+          padding: 1rem 2rem !important;
+
+          &:hover {
+            color: $gray-800;
+          }
+        }
+      }
+    }
+  }
+}

@@ -38,7 +38,18 @@
 
 // Base
 @import 'base/variables';
+@import 'base/fonts';
 @import 'base/general';
 
 // Layout
+@import 'layout/header';
+@import 'layout/footer';
 @import 'layout/mv_styles';
+@import 'layout/site';
+
+// Components
+@import 'components/home-intro';
+@import 'components/home-search';
+@import 'components/home-slider';
+@import 'components/home-somos';
+@import 'components/searchform';

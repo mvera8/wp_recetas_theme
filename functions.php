@@ -93,3 +93,8 @@ require get_template_directory() . '/inc/thumbnail-column.php';
  * Include Theme custom Customizer
  */
 require get_template_directory() . '/inc/theme-customizer.php';
+
+/**
+ * Include Recetas custom post
+ */
+require get_template_directory() . '/inc/recetas.php';

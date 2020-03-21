@@ -1,0 +1,14 @@
+.home-somos {
+  background-color: $secondary-background-color;
+
+  &__image {
+    background-color: $background-color;
+    border-radius: 50%;
+  }
+
+  &__text {
+    p {
+      margin-bottom: 0;
+    }
+  }
+}

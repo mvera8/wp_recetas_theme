@@ -1,0 +1,16 @@
+.home-search {
+  background-image: url(../images/bg-search.jpg);
+  background-position: center right;
+  background-size: cover;
+  color: $white;
+
+  &__container {
+    height: 430px;
+  }
+
+  &__title {
+    @include akzidenzItalic();
+
+    font-size: 6rem;
+  }
+}

@@ -7,8 +7,10 @@ html {
 }
 
 body {
+  @include rubikRegular();
+
   font-size: 1.6rem;
-  background-color: green;
+  background-color: $background-color;
 }
 
 .testimg {

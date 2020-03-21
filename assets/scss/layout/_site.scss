@@ -1,0 +1,29 @@
+.site-block {
+  &__intro {
+    color: $gray-600;
+    margin: 0 auto;
+    max-width: 550px;
+  }
+
+  &__title {
+    @include akzidenzBold();
+
+    color: $black;
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+
+    span {
+      @include akzidenzItalic();
+
+      color: $secondary-color;
+    }
+  }
+
+  &__subtitle {
+    @include akzidenzBold();
+
+    color: $black;
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+  }
+}
