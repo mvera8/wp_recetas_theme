@@ -1,38 +1,20 @@
 //
 // Fonts
 // ------------------------------------
-@import url('https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
-@mixin rubikRegular() {
-  font-family: 'Rubik', sans-serif;
+@mixin openSansLight() {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+@mixin openSansRegular() {
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
 
-@mixin rubikBold() {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: 'akzidenz-grotesk_bqbold';
-  src: url('../fonts/akzidenzgrotesk-bold-webfont.woff2') format('woff2'), url('../fonts/akzidenzgrotesk-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'akzidenz-grotesk_bqLtIt';
-  src: url('../fonts/akzidenzgroteskbq-lightit-webfont.woff2') format('woff2'), url('../fonts/akzidenzgroteskbq-lightit-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@mixin akzidenzBold() {
-  font-family: 'akzidenz-grotesk_bqbold';
-  font-weight: normal;
-}
-
-@mixin akzidenzItalic() {
-  font-family: 'akzidenz-grotesk_bqLtIt';
-  font-weight: normal;
+@mixin poiretOne() {
+  font-family: 'Poiret One', cursive;
+  font-weight: 400;
 }

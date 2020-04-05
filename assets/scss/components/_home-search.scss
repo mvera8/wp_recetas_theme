@@ -5,12 +5,12 @@
   color: $white;
 
   &__container {
-    height: 430px;
+    height: 300px;
   }
 
   &__title {
-    @include akzidenzItalic();
+    @include poiretOne;
 
-    font-size: 6rem;
+    font-size: 7rem;
   }
 }

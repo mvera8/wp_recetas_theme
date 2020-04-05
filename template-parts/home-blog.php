@@ -24,16 +24,15 @@ if ( $query->have_posts() ) {
 			while ( $query->have_posts() ) {
 				$query->the_post();
 				?>
-				<div class="col-12 col-md-6">
-					<?php if ( has_post_thumbnail() ) { ?>
+				<div class="col-12 col-md-4">
+					<a href="<?php the_permalink(); ?>">
 					<div class="home-blog__image">
-						<a href="<?php the_permalink(); ?>">
-							<?php the_post_thumbnail('post-detail', array('class' => 'img--block')); ?>
-						</a>
+						<div class="home-blog__image__inner">
+							<h4 class="site-block__subtitle"><?php the_title() ?></h4>
+						</div>
+						<?php the_post_thumbnail('post-detail', array('class' => 'img--block')); ?>
 					</div>
-					<?php } ?>
-					<h4 class="site-block__subtitle"><a href="<?php the_permalink(); ?>"><?php the_title() ?></a></h4>
-					<?php the_excerpt(); ?>
+					</a>
 				</div>
 				<?php
 			}

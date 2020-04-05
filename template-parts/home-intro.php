@@ -13,7 +13,7 @@
 		<div class="row align-items-center">
 			<div class="col-12 col-md-6">
 				<div class="site-block__intro">
-					<h2 class="site-block__title">Descubre <span>nuestras delicias!</span></h2>
+					<h2 class="site-block__title">Descubre Nuestras <br />Delicias Caseras!</h2>
 					<?php
 					while ( have_posts() ) :
 						the_post();
