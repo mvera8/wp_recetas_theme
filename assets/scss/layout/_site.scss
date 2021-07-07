@@ -1,0 +1,22 @@
+.site-block {
+  &__intro {
+    color: $gray-600;
+    margin: 0 auto;
+    max-width: 550px;
+  }
+
+  &__title {
+    @include poiretOne;
+
+    color: $title-color;
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  &__subtitle {
+    color: $black;
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+  }
+}

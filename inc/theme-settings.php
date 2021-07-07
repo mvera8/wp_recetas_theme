@@ -19,17 +19,12 @@ add_action('admin_init', 'wp_recetas_theme_items');
 function wp_recetas_theme_items() { 
   $settings = array(
     'wp_recetas_theme_id' => array(
-      'title'=>'My Theme Settings',
+      'title'=>'Opciones del Theme',
       'page'=>'my_theme_option',
       'fields'=> array(
         array(
-          'id'=> 'facebook',
-          'title'=>'Facebook',
-          'callback'=> 'text_callback'
-          ),
-        array(
-          'id'=> 'twitter',
-          'title'=>'Twitter',
+          'id'=> 'instagram',
+          'title'=>'Instagram',
           'callback'=> 'text_callback'
           ),
         array(
@@ -74,7 +69,7 @@ function wp_recetas_theme_items() {
  * Callbacks
 **********************************/
 function description_callback() { 
-    echo '<p>Lorem ipsuma</p>'; 
+    echo '<p>Datos del sitio web.</p>'; 
 }
 
 function textarea_callback($args) { 
@@ -99,7 +94,7 @@ function wp_recetas_theme_page() {
 ?>
     <div class="wrap">  
         <div id="icon-themes" class="icon32"></div>  
-        <h2>WP_Recetas_Theme</h2>  
+        <h2>Recetas Theme</h2>  
         <?php settings_errors(); ?>   
 
         <form method="post" action="options.php">  

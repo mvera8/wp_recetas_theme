@@ -9,4 +9,10 @@
 
 get_header(); ?>
 
+<?php get_template_part( 'template-parts/home-search' ); ?>
+<?php get_template_part( 'template-parts/home-intro' ); ?>
+<?php get_template_part( 'template-parts/home-slider' ); ?>
+<?php get_template_part( 'template-parts/home-somos' ); ?>
+<?php get_template_part( 'template-parts/home-blog' ); ?>
+
 <?php get_footer();

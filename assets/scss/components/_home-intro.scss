@@ -1,0 +1,11 @@
+.home-intro {
+  &__image {
+    background-image: url(../images/home1.jpg);
+    background-position: center right;
+    background-size: cover;
+
+    &--two {
+      background-image: url(../images/home2.jpg);
+    }
+  }
+}

@@ -49,7 +49,7 @@ function breadcrumbs() {
  * @return int        The filtered value.
  */
 function custom_excerpt_length( $length ) {
-	return 20;
+	return 5;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
@@ -71,7 +71,7 @@ add_filter( 'excerpt_more', 'custom_excerpt_more' );
  * @return string               The post excerpt within a read more link.
  */
 function all_excerpts_get_more_link( $post_excerpt ) {
-	return $post_excerpt . '... <a href="' . get_permalink( get_the_ID() ) . '">' . __( 'Read more', 'WP_Recetas_Theme' ) . '</a>';
+	return $post_excerpt . '...';
 }
 add_filter( 'wp_trim_excerpt', 'all_excerpts_get_more_link' );
 

@@ -1,0 +1,16 @@
+.home-search {
+  background-image: url(../images/bg-search.jpg);
+  background-position: center right;
+  background-size: cover;
+  color: $white;
+
+  &__container {
+    height: 300px;
+  }
+
+  &__title {
+    @include poiretOne;
+
+    font-size: 7rem;
+  }
+}

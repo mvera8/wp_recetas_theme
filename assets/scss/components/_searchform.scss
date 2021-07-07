@@ -1,0 +1,29 @@
+.searchform {
+  margin-bottom: 6rem;
+  max-width: 360px;
+
+  &__block {
+    background-color: $white;
+    border-radius: 4px;
+    position: relative;
+    padding-right: 4rem;
+  }
+
+  &__control {
+    font-size: 2rem;
+    height: 4rem;
+    padding: 0 2rem;
+  }
+
+  &__btn {
+    background-color: transparent;
+    background-image: url(../images/search.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 4rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4rem;
+  }
+}

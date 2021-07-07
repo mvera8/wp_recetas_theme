@@ -16,7 +16,6 @@
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
-		<link rel="manifest" href="/manifest.json">
 		<?php wp_head(); ?>
 		<?php do_action( 'before_head_close_tag' ); ?>
 		<?php
@@ -49,7 +48,7 @@
 					<button class="header__navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#header-menu" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
 						<i class="fas fa-bars"></i>
 					</button>
-					<div id="header-menu" class="header__menu collapse navbar-collapse justify-content-end">
+					<div id="header-menu" class="header__menu collapse navbar-collapse justify-content-center">
 						<div class="header__mobile-home d-md-block d-lg-none">
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a>
 							<button class="header__close navbar-toggler" type="button" data-toggle="collapse" data-target="#header-menu" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
